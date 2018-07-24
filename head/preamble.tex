@@ -1,0 +1,35 @@
+% PAGE SIZE
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+
+% FONTS
+\usepackage{charter}
+\usepackage{inconsolata}
+
+% BODY TEXT
+\usepackage[document]{ragged2e}
+\usepackage[none]{hyphenat}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+% TITLE SPACING
+\usepackage{titling}
+\setlength{\droptitle}{-40pt}
+
+% HEADER SPACING
+\usepackage{titlesec}
+\titlespacing*{\section}
+{0pt}{5.5ex plus 1ex minus .2ex}{4.3ex plus .2ex}
+\titlespacing*{\subsection}
+{0pt}{5.5ex plus 1ex minus .2ex}{4.3ex plus .2ex}
+
+% URLs
+\usepackage{hyperref}
+
+% COMPACT LIST
+\newenvironment{myitemize}
+{ \begin{itemize}
+    \setlength{\itemsep}{2pt}
+    \setlength{\parskip}{0pt}
+    \setlength{\parsep}{0pt}     }
+{ \end{itemize}                  }

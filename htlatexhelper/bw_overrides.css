@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+
+body {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 2rem;
+	font-size: 1rem;
+
+	font-family: 'PT Serif', serif !important;
+}
+
+.maketitle br {
+	display: none;
+}
+
+h3.likesectionHead {
+	margin-top: 1.25cm;
+	font-size: 0.75cm;
+}
+
+li.itemize {
+	margin-top: 0.5rem;
+}
+
+ul.itemize1 {
+	padding-bottom: 25pt;
+}
+
+.bchr7t-x-x-144 { 
+	font-size: 1rem;
+}
+
+.ot1-zi4r-0-x-x-120 {
+	font-family: monospace;
+}
+
+.author {
+	white-space: normal !important;
+}
